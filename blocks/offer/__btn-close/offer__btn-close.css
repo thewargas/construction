@@ -1,0 +1,16 @@
+.offer__btn-close {
+  color: white;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: -32px;
+  right: -32px;
+  transition: rotate 0.2s linear;
+}
+.offer__btn-close:hover {
+  rotate: 360deg;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Задание в институте на тему: строительные материалы"
+    />
+    <meta
+      name="keywords"
+      content="Строительные материалы, строительство, стройка, материалы"
+    />
+    <meta name="author" content="Лавров Василий Владиславович" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Материалы</title>
+  </head>
+  <body class="page">
+    <main class="content">
+      <section class="shop">
+        <h1 class="shop__title">Выберите материал:</h1>
+        <div class="shop__container">
+          <button class="shop__btn shop__btn_type_lumber"></button>
+          <button class="shop__btn shop__btn_type_metal"></button>
+        </div>
+      </section>
+      <section class="money money_disabled">
+        <div class="money__container">
+          <h2 class="money__title">Введите сумму денег:</h2>
+          <form class="money__form" action="#">
+            <input
+              type="number"
+              id="number"
+              name="number"
+              class="money__form-number"
+              placeholder="Введите сумму"
+            />
+          </form>
+          <button class="money__btn">Сохранить</button>
+          <button class="money__btn-close">╳</button>
+        </div>
+      </section>
+      <section class="offer offer_disabled">
+        <div class="offer__container">
+          <h2 class="offer__title">Пиломатериалы</h2>
+          <p class="offer__discount">
+            Для Вас предоставлена скидка
+            <span class="offer__discount-percent">10%</span> на данную категорию
+            товара.
+          </p>
+          <h3 class="offer__subtitle">
+            Исходя из Ваших финансов, Вы можете приобрести товары в следующем
+            кол-ве:
+          </h3>
+          <div class="offer__cards">
+            <div class="offer__card">
+              <img
+                id="first-image"
+                class="offer__card-image"
+                src="./images/stroi_3.PNG"
+                alt="Брус"
+              />
+              <p class="offer__card-text" id="first-text">Брус строганный -</p>
+              <span class="offer__card-amount" id="first-amount"> 5 шт.</span>
+            </div>
+            <p class="offer__cards-description">ИЛИ</p>
+            <div class="offer__card">
+              <img
+                id="second-image"
+                class="offer__card-image"
+                src="./images/stroi_4.PNG"
+                alt="Доска"
+              />
+              <p class="offer__card-text" id="second-text">Доска сухая -</p>
+              <span class="offer__card-amount" id="second-amount"> 2 шт.</span>
+            </div>
+          </div>
+          <button class="offer__btn-close">╳</button>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

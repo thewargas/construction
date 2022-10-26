@@ -1,0 +1,4 @@
+.money_disabled {
+  display: none;
+  transition: display 0.3s linear;
+}

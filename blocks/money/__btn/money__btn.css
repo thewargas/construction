@@ -1,0 +1,12 @@
+.money__btn {
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 10px;
+  height: 40px;
+  cursor: pointer;
+  transition: scale 0.1s linear;
+}
+.money__btn:hover {
+  scale: 1.05;
+}

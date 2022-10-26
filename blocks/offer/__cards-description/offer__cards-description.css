@@ -1,0 +1,7 @@
+.offer__cards-description {
+  margin: 0;
+  width: max-content;
+  display: flex;
+  color: green;
+  align-items: center;
+}

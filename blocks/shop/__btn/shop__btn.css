@@ -1,0 +1,15 @@
+.shop__btn {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: -20px 60px 110px rgba(0, 0, 0, 0.1);
+  transition: scale 0.2s linear;
+}
+.shop__btn:hover {
+  scale: 1.1;
+}

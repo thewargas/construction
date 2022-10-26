@@ -1,0 +1,8 @@
+.offer__card-image {
+  margin: 20px auto;
+  width: 80%;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+}

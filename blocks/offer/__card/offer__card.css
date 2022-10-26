@@ -1,0 +1,9 @@
+.offer__card {
+  margin-bottom: 40px;
+  display: flex;
+  width: 220px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: -20px 60px 110px rgba(0, 0, 0, 0.1);
+}

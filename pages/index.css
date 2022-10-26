@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/page/page.css);
+/* Shop */
+@import url(../blocks/shop/shop.css);
+@import url(../blocks/shop/__title/shop__title.css);
+@import url(../blocks/shop/__container/shop__container.css);
+@import url(../blocks/shop/__btn/shop__btn.css);
+@import url(../blocks/shop/__btn/_type_lumber/shop__btn_type_lumber.css);
+@import url(../blocks/shop/__btn/_type_metal/shop__btn_type_metal.css);
+/* Money */
+@import url(../blocks/money/money.css);
+@import url(../blocks/money/_disabled/money_disabled.css);
+@import url(../blocks/money/__container/money__container.css);
+@import url(../blocks/money/__title/money__title.css);
+@import url(../blocks/money/__form/money__form.css);
+@import url(../blocks/money/__form-number/money__form-number.css);
+@import url(../blocks/money/__btn/money__btn.css);
+@import url(../blocks/money/__btn-close/money__btn-close.css);
+/* Offer */
+@import url(../blocks/offer/offer.css);
+@import url(../blocks/offer/_disabled/offer_disabled.css);
+@import url(../blocks/offer/__container/offer__container.css);
+@import url(../blocks/offer/__title/offer__title.css);
+@import url(../blocks/offer/__discount/offer__discount.css);
+@import url(../blocks/offer/__discount-percent/offer__discount-percent.css);
+@import url(../blocks/offer/__subtitle/offer__subtitle.css);
+@import url(../blocks/offer/__cards/offer__cards.css);
+@import url(../blocks/offer/__cards-description/offer__cards-description.css);
+@import url(../blocks/offer/__card/offer__card.css);
+@import url(../blocks/offer/__card-image/offer__card-image.css);
+@import url(../blocks/offer/__card-text/offer__card-text.css);
+@import url(../blocks/offer/__card-amount/offer__card-amount.css);
+@import url(../blocks/offer/__btn-close/offer__btn-close.css);

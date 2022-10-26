@@ -1,0 +1,11 @@
+.money__container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  width: 20%;
+  height: max-content;
+}
